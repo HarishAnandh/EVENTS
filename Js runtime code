@@ -1,0 +1,52 @@
+Here's a basic example of a JavaScript runtime code:
+
+*JavaScript Runtime Code*
+```
+// Define a function to print output
+function printOutput(output) {
+  console.log(output);
+}
+
+// Define a function to get user input
+function getUserInput(prompt) {
+  return prompt("Enter a value: ");
+}
+
+// Define a function to add two numbers
+function addNumbers(num1, num2) {
+  return num1 + num2;
+}
+
+// Test the code
+let num1 = parseInt(getUserInput("Enter first number: "));
+let num2 = parseInt(getUserInput("Enter second number: "));
+
+let result = addNumbers(num1, num2);
+printOutput(`The result is: ${result}`);
+```
+*How it works:*
+
+1. The `printOutput` function logs the output to the console.
+2. The `getUserInput` function prompts the user to enter a value and returns the input.
+3. The `addNumbers` function takes two numbers as input and returns their sum.
+4. The code prompts the user to enter two numbers, adds them together, and prints the result.
+
+*JavaScript Runtime Environment:*
+
+To run this code, you'll need a JavaScript runtime environment, such as:
+
+1. Node.js (install from (link unavailable))
+2. Browser Console (open a web browser and press F12 to access the console)
+
+*Running the Code:*
+
+1. Save this code in a file with a `.js` extension (e.g., `example.js`).
+2. Run the code using Node.js: `node example.js`
+3. Alternatively, copy the code and paste it into the browser console.
+
+This is a basic example to get you started with JavaScript runtime coding. You can explore more advanced topics, such as:
+
+- Functions and closures
+- Object-Oriented Programming (OOP)
+- Async/await and promises
+- DOM manipulation (for browser-based projects)
