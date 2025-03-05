@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset ="utf-8">
+    <meta name="viewport" content="width=device-width">
+    </head>
+    <style>
+    .det{
+        background-color: beige;
+        border: 10px double brown;
+        border-radius: 20px;
+    }
+    .n{
+        background-color: rgb(255, 166, 0);
+        padding: 20px;
+        border: 10px double brown;
+        border-radius: 20px;
+        width: 600px;
+        text-align: center;
+        position: center;
+        margin-left: 200px;
+    }
+    .alert{
+        background-color: rgb(250, 86, 86);
+        color: aliceblue;
+        border: 5px double;
+        border-radius: 30px;
+        padding: 10px;
+        width: 600px;
+        margin-left: 100px;
+    }body{
+        color: aliceblue;
+        font-weight: bolder;
+        background-color: bisque;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }   
+    .submit{
+         border: 6px double brown;
+         border-radius: 20px;
+         background-color: bisque;
+         transition: all 2s ease;
+    }
+    .submit:hover{
+        transform: scale(1.2);
+    }
+        </style>
+<body>
+    <form action="hotel2.html">
+        <CENTER><H1 STYLE = "COLOR : RED" class="det"><I>PLEASE ENTER YOUR DETAILS:</I></H1>
+            <div class="alert">
+                <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+                <strong>Danger!</strong> THE RESPONSES WILL BE RECORDED SO PLEASE ENTER CAREFULLY!!
+              </div></CENTER> 
+              <div class="n">
+       FIRST NAME: <INPUT placeholder="your first name" TYPE="TEXT" NAME="FNAME" SIZE="25" required><BR>
+       LAST NAME: <INPUT placeholder="your lat name" TYPE="TEXT" NAME="FNAME" SIZE="25" required><BR>
+       age: <INPUT type="number" placeholder="above 18" min="18" NAME="FNAME">
+        
+        <SELECT NAME ="EVENTS">
+            <OPTION>DANCE</OPTION>
+            <OPTION>SPORTS</OPTION>
+            <OPTION>AI</OPTION>
+        </SELECT><BR>
+      EMAIL:  <INPUT placeholder="abc@gmail.com" TYPE="email" NAME="email" SIZE="25"><BR>
+      ROLL NUMBER  <INPUT placeholder="roll number" TYPE="number" NAME="PASSWORD" SIZE="25"><BR>
+        <input type="submit" value="submit" class="submit" ></div>
+    </form>
+</body>
+    </html>
+    
