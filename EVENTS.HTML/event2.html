@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset ="utf-8">
+    <meta name="viewport" content="width=device-width">
+    </head>
+    <style>
+    .det{
+        background-color: beige;
+        border: 10px double brown;
+        border-radius: 20px;
+    }
+    .n{
+        background-color: rgb(255, 166, 0);
+        padding: 20px;
+        border: 10px double brown;
+        border-radius: 20px;
+        width: 600px;
+        text-align: center;
+        position: center;
+        margin-left: 200px;
+    }
+    .alert{
+        background-color: rgb(250, 86, 86);
+        color: aliceblue;
+        border: 5px double;
+        border-radius: 30px;
+        padding: 10px;
+        width: 600px;
+        margin-left: 100px;
+    }body{
+        color: rgb(89, 42, 3);
+        font-weight: bolder;
+        background-color: bisque;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }   
+    .submit{
+         border: 6px double brown;
+         border-radius: 20px;
+         background-color: bisque;
+         transition: all 2s ease;
+    }
+    .submit:hover{
+        transform: scale(1.2);
+    }
+    .w{
+        text-align: center;
+        background-color: rgb(220, 126, 12);
+        border-radius: 50px;
+        padding: 10px;
+        border: 10px double brown;
+        margin-left: 100px;
+        height: 100px;
+    }
+    .x{
+            transition: all 0.5s ease;
+            border-radius: 10px;
+        }
+    .x:hover{
+        transform: scale(1.2);
+    }
+    h1{
+        background-color: rgb(249, 145, 17);
+        text-align: center;
+        border-radius: 50px;
+        border: 10px double brown;
+    }
+    .fb{
+       margin-bottom: 100px;
+    }
+    input{
+        border-radius: 10px;
+        background-color: rgb(250, 168, 147);
+    }
+    select{
+        border-radius: 10px;
+        background-color: blanchedalmond;
+    }
+        </style>
+<body>
+    <form action="event3.html">
+        <CENTER><H1 STYLE = "COLOR : RED" class="det"><I>PLEASE ENTER YOUR DETAILS:</I></H1>
+            <div class="alert">
+                <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+                <strong>Danger!</strong> THE RESPONSES WILL BE RECORDED SO PLEASE ENTER CAREFULLY!!
+              </div></CENTER> 
+              <div class="n">
+        NAME: <INPUT placeholder="your first name" TYPE="TEXT" NAME="FNAME" SIZE="25" required><BR>
+        
+        
+      EMAIL:  <INPUT placeholder="abc@gmail.com" TYPE="email" NAME="email" SIZE="25" required><BR>
+      ROLL NUMBER:  <INPUT placeholder="roll number" TYPE="number" NAME="PASSWORD" SIZE="25" min="2020115000" required><BR>
+        <SELECT NAME ="EVENTS">
+            <OPTION>CULTURAL FEST</OPTION>
+            <OPTION>SPORTS</OPTION>
+            <OPTION>CODE RED HACKATHON</OPTION>
+        </SELECT><BR>
+        <input type="submit" value="submit" class="submit" onclick="this.parentElement.style.display='span'" ></div>
+    </form>
+</body>
+    <h1>CONNECT US ON :</h1>
+    <footer>
+    <div>
+        <div class="w">
+           
+            <a href="facebook.com" > <img src="https://static.vecteezy.com/system/resources/previews/018/930/698/original/facebook-logo-facebook-icon-transparent-free-png.png" width="100" height="100" class="x" id="fb"></a>
+       
+         <a href="instagram.com" > <img src="https://static.vecteezy.com/system/resources/previews/018/930/413/large_2x/instagram-logo-instagram-icon-transparent-free-png.png" width="100" height="100" class="x"></a>
+               <a href="youtube.com" > <img src="https://www.interstellarrift.com/wiki/images/d/d8/Youtube-logo-png-photo-0.png" width="100"   height="100" class="x"></a>
+        </div>
+     </div>
+    </footer>
+
+    </html>
+    
